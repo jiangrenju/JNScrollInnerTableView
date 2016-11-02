@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="KGk-i7-Jjw" customClass="JNFirstCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付宝重启免费时代，马云打出银行王牌！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akG-8d-wjm">
+                        <rect key="frame" x="104" y="10" width="208" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-11-02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g62-lw-wOF">
+                        <rect key="frame" x="104" y="62" width="208" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="P1x-qK-cBc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.67843137249999996" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mayun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VDw-Ag-XqW">
+                        <rect key="frame" x="8" y="9" width="88" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="88" id="4s6-bE-jO6"/>
+                            <constraint firstAttribute="height" constant="76" id="lbX-Qj-FNl"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g62-lw-wOF" firstAttribute="leading" secondItem="akG-8d-wjm" secondAttribute="leading" id="2vp-ei-EJ9"/>
+                    <constraint firstItem="akG-8d-wjm" firstAttribute="leading" secondItem="VDw-Ag-XqW" secondAttribute="trailing" constant="8" id="8uz-kR-4Mg"/>
+                    <constraint firstItem="g62-lw-wOF" firstAttribute="top" secondItem="akG-8d-wjm" secondAttribute="bottom" constant="8" id="NHm-Xf-jNY"/>
+                    <constraint firstItem="akG-8d-wjm" firstAttribute="top" secondItem="VDw-Ag-XqW" secondAttribute="top" constant="1" id="PeI-ML-kOZ"/>
+                    <constraint firstItem="g62-lw-wOF" firstAttribute="trailing" secondItem="akG-8d-wjm" secondAttribute="trailing" id="q7C-3S-Mep"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="g62-lw-wOF" secondAttribute="bottom" constant="10" id="0bb-Rj-Y9f"/>
+                <constraint firstAttribute="trailing" secondItem="akG-8d-wjm" secondAttribute="trailing" constant="8" id="DYl-G2-gDF"/>
+                <constraint firstItem="VDw-Ag-XqW" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="FLt-gz-AuH"/>
+                <constraint firstItem="VDw-Ag-XqW" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="8" id="Jhv-o7-ea7"/>
+            </constraints>
+            <point key="canvasLocation" x="-169" y="-71.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mayun.jpg" width="640" height="356"/>
+    </resources>
+</document>

@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175182981D56D06369306244 /* Pods_JNPageScrollInnnerTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF372A6F167470F7F569711D /* Pods_JNPageScrollInnnerTableView.framework */; };
+		2E3492B81DC72676004AAF71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3492B71DC72676004AAF71 /* main.m */; };
+		2E3492BB1DC72676004AAF71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3492BA1DC72676004AAF71 /* AppDelegate.m */; };
+		2E3492BE1DC72676004AAF71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3492BD1DC72676004AAF71 /* ViewController.m */; };
+		2E3492C11DC72676004AAF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3492BF1DC72676004AAF71 /* Main.storyboard */; };
+		2E3492C31DC72676004AAF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3492C21DC72676004AAF71 /* Assets.xcassets */; };
+		2E3492C61DC72676004AAF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3492C41DC72676004AAF71 /* LaunchScreen.storyboard */; };
+		2EE8764B1DC98FF500AB16D0 /* JNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8764A1DC98FF500AB16D0 /* JNFirstViewController.m */; };
+		2EE8764E1DC9900A00AB16D0 /* JNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8764D1DC9900A00AB16D0 /* JNSecondViewController.m */; };
+		2EE876531DC990B600AB16D0 /* JNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE876521DC990B600AB16D0 /* JNBaseViewController.m */; };
+		2EE876561DC9915200AB16D0 /* JNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE876551DC9915200AB16D0 /* JNTableView.m */; };
+		2EE876581DC9966400AB16D0 /* sampleee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EE876571DC9966400AB16D0 /* sampleee.jpg */; };
+		2EE8765B1DC997CD00AB16D0 /* JNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8765A1DC997CD00AB16D0 /* JNTableViewCell.m */; };
+		2EE8765F1DC99D5D00AB16D0 /* JNFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8765D1DC99D5D00AB16D0 /* JNFirstCell.m */; };
+		2EE876601DC99D5D00AB16D0 /* JNFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE8765E1DC99D5D00AB16D0 /* JNFirstCell.xib */; };
+		2EE876621DC99EB100AB16D0 /* mayun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EE876611DC99EB100AB16D0 /* mayun.jpg */; };
+		2EE876661DC99F3500AB16D0 /* JNSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE876641DC99F3500AB16D0 /* JNSecondCell.m */; };
+		2EE876671DC99F3500AB16D0 /* JNSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE876651DC99F3500AB16D0 /* JNSecondCell.xib */; };
+		2EE8766A1DC9BA6100AB16D0 /* JNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE876691DC9BA6100AB16D0 /* JNMainViewController.m */; };
+		2EE8766E1DC9D4A600AB16D0 /* JNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8766D1DC9D4A600AB16D0 /* JNTableViewController.m */; };
+		2EE876741DC9DACD00AB16D0 /* JNRecognizeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE876731DC9DACD00AB16D0 /* JNRecognizeTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CD30E4C3FC39AB4CF89FD16 /* Pods-JNPageScrollInnnerTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNPageScrollInnnerTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNPageScrollInnnerTableView/Pods-JNPageScrollInnnerTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3492B31DC72676004AAF71 /* JNPageScrollInnnerTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNPageScrollInnnerTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3492B71DC72676004AAF71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E3492B91DC72676004AAF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E3492BA1DC72676004AAF71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E3492BC1DC72676004AAF71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E3492BD1DC72676004AAF71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E3492C01DC72676004AAF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3492C21DC72676004AAF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3492C51DC72676004AAF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3492C71DC72676004AAF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE876491DC98FF500AB16D0 /* JNFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFirstViewController.h; sourceTree = "<group>"; };
+		2EE8764A1DC98FF500AB16D0 /* JNFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFirstViewController.m; sourceTree = "<group>"; };
+		2EE8764C1DC9900A00AB16D0 /* JNSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNSecondViewController.h; sourceTree = "<group>"; };
+		2EE8764D1DC9900A00AB16D0 /* JNSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNSecondViewController.m; sourceTree = "<group>"; };
+		2EE876511DC990B600AB16D0 /* JNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNBaseViewController.h; sourceTree = "<group>"; };
+		2EE876521DC990B600AB16D0 /* JNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNBaseViewController.m; sourceTree = "<group>"; };
+		2EE876541DC9915200AB16D0 /* JNTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTableView.h; sourceTree = "<group>"; };
+		2EE876551DC9915200AB16D0 /* JNTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTableView.m; sourceTree = "<group>"; };
+		2EE876571DC9966400AB16D0 /* sampleee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleee.jpg; sourceTree = "<group>"; };
+		2EE876591DC997CD00AB16D0 /* JNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTableViewCell.h; sourceTree = "<group>"; };
+		2EE8765A1DC997CD00AB16D0 /* JNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTableViewCell.m; sourceTree = "<group>"; };
+		2EE8765C1DC99D5D00AB16D0 /* JNFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFirstCell.h; sourceTree = "<group>"; };
+		2EE8765D1DC99D5D00AB16D0 /* JNFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFirstCell.m; sourceTree = "<group>"; };
+		2EE8765E1DC99D5D00AB16D0 /* JNFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JNFirstCell.xib; sourceTree = "<group>"; };
+		2EE876611DC99EB100AB16D0 /* mayun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mayun.jpg; sourceTree = "<group>"; };
+		2EE876631DC99F3500AB16D0 /* JNSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNSecondCell.h; sourceTree = "<group>"; };
+		2EE876641DC99F3500AB16D0 /* JNSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNSecondCell.m; sourceTree = "<group>"; };
+		2EE876651DC99F3500AB16D0 /* JNSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JNSecondCell.xib; sourceTree = "<group>"; };
+		2EE876681DC9BA6100AB16D0 /* JNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNMainViewController.h; sourceTree = "<group>"; };
+		2EE876691DC9BA6100AB16D0 /* JNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNMainViewController.m; sourceTree = "<group>"; };
+		2EE8766B1DC9BB0300AB16D0 /* JNConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNConst.h; sourceTree = "<group>"; };
+		2EE8766C1DC9D4A600AB16D0 /* JNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTableViewController.h; sourceTree = "<group>"; };
+		2EE8766D1DC9D4A600AB16D0 /* JNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTableViewController.m; sourceTree = "<group>"; };
+		2EE876721DC9DACD00AB16D0 /* JNRecognizeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNRecognizeTableView.h; sourceTree = "<group>"; };
+		2EE876731DC9DACD00AB16D0 /* JNRecognizeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNRecognizeTableView.m; sourceTree = "<group>"; };
+		2F25A6998657AEBA87D0817A /* Pods-JNPageScrollInnnerTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNPageScrollInnnerTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNPageScrollInnnerTableView/Pods-JNPageScrollInnnerTableView.release.xcconfig"; sourceTree = "<group>"; };
+		AF372A6F167470F7F569711D /* Pods_JNPageScrollInnnerTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNPageScrollInnnerTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3492B01DC72676004AAF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175182981D56D06369306244 /* Pods_JNPageScrollInnnerTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3492AA1DC72676004AAF71 = {
+			isa = PBXGroup;
+			children = (
+				2E3492B51DC72676004AAF71 /* JNPageScrollInnnerTableView */,
+				2E3492B41DC72676004AAF71 /* Products */,
+				EAE66F443DF05CF9B18D4F1D /* Pods */,
+				33644D04E71BA4C614C9594D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3492B41DC72676004AAF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3492B31DC72676004AAF71 /* JNPageScrollInnnerTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3492B51DC72676004AAF71 /* JNPageScrollInnnerTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2EE8764F1DC9903E00AB16D0 /* View */,
+				2EE876451DC98FC300AB16D0 /* VC */,
+				2E3492B91DC72676004AAF71 /* AppDelegate.h */,
+				2E3492BA1DC72676004AAF71 /* AppDelegate.m */,
+				2E3492BF1DC72676004AAF71 /* Main.storyboard */,
+				2E3492C21DC72676004AAF71 /* Assets.xcassets */,
+				2E3492C41DC72676004AAF71 /* LaunchScreen.storyboard */,
+				2E3492C71DC72676004AAF71 /* Info.plist */,
+				2EE876571DC9966400AB16D0 /* sampleee.jpg */,
+				2EE876611DC99EB100AB16D0 /* mayun.jpg */,
+				2EE876501DC9907300AB16D0 /* Base */,
+				2E3492B61DC72676004AAF71 /* Supporting Files */,
+			);
+			path = JNPageScrollInnnerTableView;
+			sourceTree = "<group>";
+		};
+		2E3492B61DC72676004AAF71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E3492B71DC72676004AAF71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE876451DC98FC300AB16D0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E3492BC1DC72676004AAF71 /* ViewController.h */,
+				2E3492BD1DC72676004AAF71 /* ViewController.m */,
+				2EE876681DC9BA6100AB16D0 /* JNMainViewController.h */,
+				2EE876691DC9BA6100AB16D0 /* JNMainViewController.m */,
+				2EE876491DC98FF500AB16D0 /* JNFirstViewController.h */,
+				2EE8764A1DC98FF500AB16D0 /* JNFirstViewController.m */,
+				2EE8764C1DC9900A00AB16D0 /* JNSecondViewController.h */,
+				2EE8764D1DC9900A00AB16D0 /* JNSecondViewController.m */,
+				2EE8766C1DC9D4A600AB16D0 /* JNTableViewController.h */,
+				2EE8766D1DC9D4A600AB16D0 /* JNTableViewController.m */,
+				2EE8766B1DC9BB0300AB16D0 /* JNConst.h */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		2EE8764F1DC9903E00AB16D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE876591DC997CD00AB16D0 /* JNTableViewCell.h */,
+				2EE8765A1DC997CD00AB16D0 /* JNTableViewCell.m */,
+				2EE8765C1DC99D5D00AB16D0 /* JNFirstCell.h */,
+				2EE8765D1DC99D5D00AB16D0 /* JNFirstCell.m */,
+				2EE8765E1DC99D5D00AB16D0 /* JNFirstCell.xib */,
+				2EE876631DC99F3500AB16D0 /* JNSecondCell.h */,
+				2EE876641DC99F3500AB16D0 /* JNSecondCell.m */,
+				2EE876651DC99F3500AB16D0 /* JNSecondCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EE876501DC9907300AB16D0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2EE876511DC990B600AB16D0 /* JNBaseViewController.h */,
+				2EE876521DC990B600AB16D0 /* JNBaseViewController.m */,
+				2EE876541DC9915200AB16D0 /* JNTableView.h */,
+				2EE876551DC9915200AB16D0 /* JNTableView.m */,
+				2EE876721DC9DACD00AB16D0 /* JNRecognizeTableView.h */,
+				2EE876731DC9DACD00AB16D0 /* JNRecognizeTableView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		33644D04E71BA4C614C9594D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF372A6F167470F7F569711D /* Pods_JNPageScrollInnnerTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE66F443DF05CF9B18D4F1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CD30E4C3FC39AB4CF89FD16 /* Pods-JNPageScrollInnnerTableView.debug.xcconfig */,
+				2F25A6998657AEBA87D0817A /* Pods-JNPageScrollInnnerTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3492B21DC72676004AAF71 /* JNPageScrollInnnerTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3492CA1DC72676004AAF71 /* Build configuration list for PBXNativeTarget "JNPageScrollInnnerTableView" */;
+			buildPhases = (
+				9D7D952D29AA33321514954D /* [CP] Check Pods Manifest.lock */,
+				2E3492AF1DC72676004AAF71 /* Sources */,
+				2E3492B01DC72676004AAF71 /* Frameworks */,
+				2E3492B11DC72676004AAF71 /* Resources */,
+				F2D3CB3518C3901683C7F37E /* [CP] Embed Pods Frameworks */,
+				31DCEA6DC801F1420F5767E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNPageScrollInnnerTableView;
+			productName = JNPageScrollInnnerTableView;
+			productReference = 2E3492B31DC72676004AAF71 /* JNPageScrollInnnerTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3492AB1DC72676004AAF71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JN;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jiang;
+				TargetAttributes = {
+					2E3492B21DC72676004AAF71 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8ZRW75764F;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2E3492AE1DC72676004AAF71 /* Build configuration list for PBXProject "JNPageScrollInnnerTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3492AA1DC72676004AAF71;
+			productRefGroup = 2E3492B41DC72676004AAF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3492B21DC72676004AAF71 /* JNPageScrollInnnerTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3492B11DC72676004AAF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE876621DC99EB100AB16D0 /* mayun.jpg in Resources */,
+				2E3492C61DC72676004AAF71 /* LaunchScreen.storyboard in Resources */,
+				2EE876601DC99D5D00AB16D0 /* JNFirstCell.xib in Resources */,
+				2EE876671DC99F3500AB16D0 /* JNSecondCell.xib in Resources */,
+				2E3492C31DC72676004AAF71 /* Assets.xcassets in Resources */,
+				2E3492C11DC72676004AAF71 /* Main.storyboard in Resources */,
+				2EE876581DC9966400AB16D0 /* sampleee.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31DCEA6DC801F1420F5767E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNPageScrollInnnerTableView/Pods-JNPageScrollInnnerTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7D952D29AA33321514954D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D3CB3518C3901683C7F37E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNPageScrollInnnerTableView/Pods-JNPageScrollInnnerTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3492AF1DC72676004AAF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3492BE1DC72676004AAF71 /* ViewController.m in Sources */,
+				2EE876661DC99F3500AB16D0 /* JNSecondCell.m in Sources */,
+				2E3492BB1DC72676004AAF71 /* AppDelegate.m in Sources */,
+				2E3492B81DC72676004AAF71 /* main.m in Sources */,
+				2EE876561DC9915200AB16D0 /* JNTableView.m in Sources */,
+				2EE8766E1DC9D4A600AB16D0 /* JNTableViewController.m in Sources */,
+				2EE876531DC990B600AB16D0 /* JNBaseViewController.m in Sources */,
+				2EE8765F1DC99D5D00AB16D0 /* JNFirstCell.m in Sources */,
+				2EE876741DC9DACD00AB16D0 /* JNRecognizeTableView.m in Sources */,
+				2EE8764E1DC9900A00AB16D0 /* JNSecondViewController.m in Sources */,
+				2EE8764B1DC98FF500AB16D0 /* JNFirstViewController.m in Sources */,
+				2EE8766A1DC9BA6100AB16D0 /* JNMainViewController.m in Sources */,
+				2EE8765B1DC997CD00AB16D0 /* JNTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E3492BF1DC72676004AAF71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3492C01DC72676004AAF71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3492C41DC72676004AAF71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3492C51DC72676004AAF71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3492C81DC72676004AAF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3492C91DC72676004AAF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3492CB1DC72676004AAF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD30E4C3FC39AB4CF89FD16 /* Pods-JNPageScrollInnnerTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8ZRW75764F;
+				INFOPLIST_FILE = JNPageScrollInnnerTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cmcm.wlk3yhklqthk-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d52e238-14c3-4309-bf4d-95b6a81b833b";
+				PROVISIONING_PROFILE_SPECIFIER = common_dev;
+			};
+			name = Debug;
+		};
+		2E3492CC1DC72676004AAF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F25A6998657AEBA87D0817A /* Pods-JNPageScrollInnnerTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8ZRW75764F;
+				INFOPLIST_FILE = JNPageScrollInnnerTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cmcm.wlk3yhklqthk-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2d52e238-14c3-4309-bf4d-95b6a81b833b";
+				PROVISIONING_PROFILE_SPECIFIER = common_dev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3492AE1DC72676004AAF71 /* Build configuration list for PBXProject "JNPageScrollInnnerTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3492C81DC72676004AAF71 /* Debug */,
+				2E3492C91DC72676004AAF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3492CA1DC72676004AAF71 /* Build configuration list for PBXNativeTarget "JNPageScrollInnnerTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3492CB1DC72676004AAF71 /* Debug */,
+				2E3492CC1DC72676004AAF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3492AB1DC72676004AAF71 /* Project object */;
+}
